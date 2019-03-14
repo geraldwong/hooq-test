@@ -1,0 +1,23 @@
+.wrapper {
+}
+
+.header{
+    cursor: pointer;
+    border: solid 1px hsla(294, 34%, 32%, 1);
+    padding: 15px;
+    background-color: hsla(294, 61%, 21%, 0.5);
+    color: hsla(40, 98%, 60%, 1);
+    font-family: verdana;
+}
+
+.content{
+    /*cursor: pointer;*/
+    border-left: solid 1px hsla(0, 0%, 7%, 1);
+    border-right: solid 1px hsla(0, 0%, 7%, 1);
+    border-bottom: solid 1px hsla(0, 0%, 7%, 1);
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+    font-family: verdana;
+    font-size: 14px;
+    color: hsla(294, 29%, 38%, 1);
+}

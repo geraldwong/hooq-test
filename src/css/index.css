@@ -1,0 +1,103 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    background: hsla(294, 61%, 9%, 1);
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.site-wrapper{
+    background-color: hsla(0, 0%, 3%, 0.5);
+}
+
+.site-header{
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    max-width: 30%; /*actual image width*/
+    height: auto; /* maintain aspect ratio*/
+    margin: auto;
+}
+
+.details-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    color: hsla(294, 34%, 32%, 1);
+}
+
+.details-headers {
+    color: hsla(360, 100%, 100%, 1);
+}
+
+.details-row-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.poster-wrapper > img {
+    width: 15em;
+    padding: 5px;
+}
+
+.show-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.show-basic-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.episodes-wrapper {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.season-wrapper-focused {
+    font-weight: bold;
+    color: hsla(40, 98%, 60%, 1);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.season-wrapper {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.catalogue-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.show-title-catalogue  {
+    color: hsla(40, 98%, 60%, 1);
+    text-align: center;
+}
+
+.show-wrapper  {
+    flex: 0 1 auto;
+    padding: 10px;
+}
+
+.show-wrapper > img {
+    cursor: pointer;
+    display: block;
+    max-width: 70%; /*actual image width*/
+    height: auto; /* maintain aspect ratio*/
+    margin: auto; /*optional centering of image*/
+}
