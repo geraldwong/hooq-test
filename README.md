@@ -22,3 +22,5 @@ For deployment, run:
 
 ### `npm run build`
 
+Alternatively, see a live view of the page at [https://geraldwong.github.io/hooq-test/](https://geraldwong.github.io/hooq-test/)
+
